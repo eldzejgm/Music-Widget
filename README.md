@@ -54,3 +54,7 @@ AudioWidget is a custom JavaScript-based music player that can be easily integra
 - **Browser security** – Autoplay may require user interaction.
 - **File accessibility** – Ensure audio files are publicly accessible.
 - **Styling** – You can customize the widget’s appearance by modifying the `widget.css` file.
+
+## Terms of Service
+
+#### By using AudioWidget, you agree to comply with its strict policy regarding ownership, distribution, and modification. Unauthorized modifications, copying, or redistribution of this project are strictly prohibited. For full details, please refer to the [AudioWidget Strict Policy](https://github.com/eldzejgm/Music-Widget/blob/main/Terms%20Of%20Service.md)
