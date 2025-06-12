@@ -30,27 +30,22 @@ class AudioWidget {
         return `<i class="bx bx-question-mark"></i>`;
       }
     
-      // Jeśli to pełny HTML np. <i class="bx bx-play"></i> lub <svg>...</svg>
       if (icon.trim().startsWith('<')) {
         return icon;
       }
     
-      // Font Awesome
       if (icon.includes('fa-')) {
         return `<i class="${icon}"></i>`;
       }
     
-      // Boxicons
       if (icon.includes('bx-')) {
         return `<i class="${icon}"></i>`;
       }
     
-      // Obrazki
       if (icon.startsWith('http') || icon.match(/\.(png|jpg|svg|gif)$/)) {
         return `<img src="${icon}" alt="${id}" class="button-icon">`;
       }
     
-      // Jeśli to jakaś dziwna klasa – próbujemy i tak
       return `<i class="${icon}"></i>`;
     }
       
